@@ -5,6 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import de.codecentric.boot.admin.server.config.EnableAdminServer;
 
+/**
+ * Class that starts the application
+ * 
+ * @author Mariana Azevedo
+ * @since 06/07/2020
+ */
 @EnableAdminServer
 @SpringBootApplication
 public class ApisAdminServerApplication {
