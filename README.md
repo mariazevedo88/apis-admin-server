@@ -1,5 +1,7 @@
 # apis-admin-server
 
+[![Build Status](https://travis-ci.org/mariazevedo88/apis-admin-server.svg?branch=master)](https://travis-ci.org/mariazevedo88/apis-admin-server)
+
 ## About the app
 Spring Boot Admin Server for my personal API's
 
