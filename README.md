@@ -18,6 +18,22 @@ This project was developed with:
 * **Maven**
 * **Heroku**
 
+### Run
+
+In order to run the application, run the jar simply as following:
+
+```bash
+java -jar apis-admin-server-2.0.1-SNAPSHOT.jar --spring.profiles.active=dev
+```
+    
+or
+
+```bash
+mvn spring-boot:run -Dspring.profiles.active=dev
+```
+
+By default, the application will be available at [http://localhost:9090](http://localhost:9090)
+
 ### License
 
 This API is licensed under the MIT License.
