@@ -5,7 +5,7 @@
 	
 	<groupId>io.github.mariazevedo88</groupId>
 	<artifactId>apis-admin-server</artifactId>
-	<version>2.0.1-SNAPSHOT</version>
+	<version>2.0.2-SNAPSHOT</version>
 	<name>apis-admin-server</name>
 	<description>Spring Boot Admin Server for my personal API's</description>
 	
@@ -18,8 +18,7 @@
 
 	<properties>
 		<java.version>11</java.version>
-		<spring-boot-admin.version>2.2.3</spring-boot-admin.version>
-		<reactor-netty.version>0.9.11.RELEASE</reactor-netty.version>
+		<spring-boot-admin.version>2.2.4</spring-boot-admin.version>
 	</properties>
 
 	<dependencies>
@@ -54,17 +53,6 @@
 				<version>${spring-boot-admin.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
-				<exclusions>
-					<exclusion>
-						<groupId>io.projectreactor.netty</groupId>
-						<artifactId>reactor-netty</artifactId>
-					</exclusion>
-				</exclusions>
-			</dependency>
-			<dependency>
-				<groupId>io.projectreactor.netty</groupId>
-				<artifactId>reactor-netty</artifactId>
-				<version>${reactor-netty.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

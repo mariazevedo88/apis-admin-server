@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/mariazevedo88/apis-admin-server.svg?branch=master)](https://travis-ci.org/mariazevedo88/apis-admin-server)
 
 ## About the app
+
 Spring Boot Admin Server for my personal API's
 
 ## Features
@@ -13,8 +14,7 @@ This project was developed with:
 
 * **Java 11 (Java Development Kit - JDK: 11.0.7)**
 * **Spring Boot 2.3.3**
-* **Spring Admin Client 2.2.3**
-* **Reactor Netty 0.9.11**
+* **Spring Admin Client 2.2.4**
 * **Maven**
 * **Heroku**
 
@@ -23,7 +23,7 @@ This project was developed with:
 In order to run the application, run the jar simply as following:
 
 ```bash
-java -jar apis-admin-server-2.0.1-SNAPSHOT.jar --spring.profiles.active=dev
+java -jar apis-admin-server-2.0.2-SNAPSHOT.jar --spring.profiles.active=dev
 ```
     
 or

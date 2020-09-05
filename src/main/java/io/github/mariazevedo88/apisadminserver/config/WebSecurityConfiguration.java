@@ -63,7 +63,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse())
                 .ignoringAntMatchers(this.adminServer.getContextPath() + "/instances", 
                 		             this.adminServer.getContextPath() + "/instances/*",
-                		             this.adminServer.getContextPath() + "/actuator/**")
+                		             this.adminServer.getContextPath() + "/manage/**")
                 .and()
                 .rememberMe((rememberMe) -> rememberMe.key(UUID.randomUUID().toString()).tokenValiditySeconds(1209600));
     }
